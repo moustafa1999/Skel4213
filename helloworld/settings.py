@@ -107,10 +107,10 @@ AUTH_PASSWORD_VALIDATORS = [
 LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
-
+STATIC_ROOT =  os.path.join(BASE_DIR, 'static')
 USE_I18N = True
 
-USE_L10N = True
+0N = True
 
 USE_TZ = True
 
@@ -119,6 +119,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join (BASE_DIR, "static")
+STATIC_ROOT =  os.path.join(BASE_DIR, "static")
 # Activate Django-Heroku.
 django_heroku.settings(locals())
