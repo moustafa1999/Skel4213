@@ -1,0 +1,15 @@
+Problem Statement & Project Description
+
+This project device aims to measure the temperature of a person accurately regardless of the distance of the person to the device.
+As we know, if the person is not near to the device, the temperature reading might not be accurate. So, we are taking both the distance and temperature readings and we applied a mathematical function with a reference temperature to get the real and accurate reading of the temperature. The reference temperature is getting from the reading with the closest distance. 
+
+The main components of the project:
+
+Temperature sensor (mlx90614)
+Ultrasonic sensor (HC-SR04)
+NodeMCU esp32
+RFID RC522 (Magnetic card& Reader)
+The progress of the device is as follows: The person must show his ID card to the device so the device will take his temperature and also will record the distance between the person and the device.
+ Lastly, the data will be sent to a web server.
+
+The use case specification is shown In this folder and it gives better understanding of the project.
