@@ -19,4 +19,4 @@ from django.urls import path, include  # new
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include("myapi.urls")),  # new
-]
+path("hello", include("pages.urls")), ]
