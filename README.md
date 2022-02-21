@@ -5,22 +5,22 @@ In this project I used Heroku to publish my webserver. Heroku allows you to crea
 You can choose which add-on you want to use and link it to the database you already have. the database used in this project is a local  Rest framework Django which was then published on to heroku. 
 You can find a step-by-step tutorial below in this file.
 
-This is a Youtube video link demonstrating the dashboard design before and after user suggestions: https://youtu.be/JFABvVRNPZw
+ # This is a Youtube video link demonstrating the dashboard design before and after user suggestions: https://youtu.be/JFABvVRNPZw
 
 a CSV file Titled (Readings_table) is included in the repository that has all of the sensor readings used. You can Import all that data if your dashboard program supports importing CSV files.
 a Backup file for the data is also Included you can use Heroku's heroku-postgresql extension to import all of the readings as well.
 
 the dashboard link is included below:
 
-Version1: https://app.trevor.io/share/dashboard/a0115e5e-da83-44bc-9c61-c35059c1acb0/load.html?pin=767a9
+# Version1: https://app.trevor.io/share/dashboard/a0115e5e-da83-44bc-9c61-c35059c1acb0/load.html?pin=767a9
 
-Version2: https://app.trevor.io/share/dashboard/0ca64b01-a373-456f-ad5a-9a9a98041e81/load.html?pin=e84a0
-
-
+# Version2: https://app.trevor.io/share/dashboard/0ca64b01-a373-456f-ad5a-9a9a98041e81/load.html?pin=e84a0
 
 
 
-###this is a step by step tutorial on creating rest framework API and publishing on heroku app / creating dashboard 
+
+
+# this is a step by step tutorial on creating rest framework API and publishing on heroku app / creating dashboard 
 
 #first python needs to be installed and virtual environment needs to be activted
 
