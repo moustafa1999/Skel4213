@@ -17,8 +17,9 @@ the dashboard link is included below:
 # Version2: https://app.trevor.io/share/dashboard/0ca64b01-a373-456f-ad5a-9a9a98041e81/load.html?pin=e84a0
 
 
+# The raw database link :
 
-
+http://cloud4213.herokuapp.com/sensors/
 
 # this is a step by step tutorial on creating rest framework API and publishing on heroku app / creating dashboard 
 
