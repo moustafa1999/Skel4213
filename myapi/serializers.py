@@ -5,4 +5,4 @@ from .models import sensor
 class sensorSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = sensor
-        fields = ('id', 'temp', 'ic', 'dist')
+        fields = ('id', 'time' ,'temp', 'ic', 'dist')
